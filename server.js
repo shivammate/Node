@@ -18,7 +18,7 @@ app.get('/',(req,res)=>{
 
 app.get('/about',(req,res)=>{
 	res.render('about.hbs',{
-		pageTitle : "About",
+		pageTitle : "About", 
 		currentYear : new Date().getFullYear()
 	});
 })
@@ -26,3 +26,4 @@ app.get('/about',(req,res)=>{
 app.listen(3000,()=>{
 	console.log("Server Running ");
 });
+//Shivam
